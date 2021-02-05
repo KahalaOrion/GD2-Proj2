@@ -1,0 +1,79 @@
+
+
+body{
+	background-color: #19701e;
+background-image: url("https://www.transparenttextures.com/patterns/gravel.png");
+	width: 4000px;
+	height:3500px;
+}
+
+h1{
+	font-family:Tahoma, Verdana, sans-serif;
+	color:white;
+	position:absolute; 
+ 	top:5px;
+ 	left:100px;
+}
+
+
+img {
+	border-radius: 40%;
+ 	position:absolute; 
+ 	top:40px;
+ 	left:2000px;
+}
+
+a {
+	position: absolute;
+	top:3450px;
+	left:-900px;
+}
+
+a:hover{ 
+	position: absolute;
+	top:3450px;
+	left:-900px;
+	opacity:0.8;
+ }
+
+.container{
+	position: absolute;
+	width: 4000px;
+	height:3500px;
+}
+.path1{
+	width:100px;
+ 	height:200px;
+ 	clip-path: polygon(33% 0, 66% 0, 100% 100%, 0% 100%);
+ 	background-color:#38260E;
+ 	position:absolute; 
+ 	top: 302px;
+    left: 2017px;
+    transform: rotate(36deg);
+    opacity: 0.9;
+ 
+}
+
+
+.path2{
+	width:100px;
+ 	height:200px;
+ 	background-color:#38260E;
+ 	position:absolute; 
+ 	top: 467px;
+    left: 1886px;
+    transform: rotate(41deg);
+    opacity: 0.9;
+}
+
+.path3{
+	width:100px;
+ 	height:400px;
+ 	background-color:#38260E;
+ 	position:absolute; 
+ 	top: 605px;
+    left: 1682px;
+    transform: rotate(41deg);
+    opacity: 0.9;
+}
+

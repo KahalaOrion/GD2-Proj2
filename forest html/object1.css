@@ -1,0 +1,112 @@
+
+body{
+	padding:0;
+ 	margin:0;
+ 	
+}
+
+.container{
+	background-color: blue;
+  	height:500px;
+  	width:450px;
+  	position: absolute;
+  	margin: auto;
+  	top:0;
+ 	bottom:0;
+  	left:0;
+ 	right:0;
+}
+
+
+.top{ 
+	width: 300px;
+	height: 200px;
+	border-radius: 50% 50% 100% 0% / 100% 100% 0% 0% ;
+	background: red;
+	position:absolute;
+	top:20px;
+	left:75px;
+	overflow: hidden;
+	
+
+ }
+
+ .spot1{
+ 	width:90px;
+ 	height:80px;
+ 	border-radius: 50%;
+ 	background: pink;
+	position:absolute;
+	top:56px;
+	left:-3px;
+ }
+
+ .spot2{
+ 	width:90px;
+ 	height:85px;
+ 	border-radius: 50%;
+ 	background: pink;
+	position:absolute;
+	top:83px;
+	left:107px;
+ }
+
+ .spot3{
+	width:90px;
+ 	height:87px;
+ 	border-radius: 50%;
+ 	background: pink;
+	position:absolute;
+	top:-5px;
+	left:161px;
+
+ }
+
+ .underside{
+ 	width: 300px;
+	height: 45px;
+	border-radius:50%;
+	background: white;
+	position:absolute;
+	top:197px;
+	left:75px;
+
+ }
+
+ .undershadow{
+ 	 width: 276px;
+    height: 30px;
+    border-radius: 50%;
+    background: black;
+    position: absolute;
+    top: 5px;
+    left: 12px;
+    opacity: 0.4;
+
+ }
+
+ .stem{
+ 	width: 90px;
+	height: 250px;
+	clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+	border-radius: 20%;
+	background: #E0B094;
+	position:absolute;
+	top:202px;
+	left:185px;
+	
+
+ }
+
+ .shadow{
+ 	width: 300px;
+    height: 45px;
+    border-radius: 50%;
+    background: black;
+    position: absolute;
+    top: 429px;
+    left: 129px;
+    opacity: 0.4;
+
+
+ }

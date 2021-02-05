@@ -1,0 +1,87 @@
+
+body {
+	background-color: #72635E;
+	background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+	width: 2000px;
+	height:1500px;
+	cursor: url(dragonflycursor.png),auto;
+}
+
+.container{
+	position: absolute;
+	width: 2000px;
+	height:1500px;
+	overflow: hidden;
+}
+
+.path1{
+	width:100px;
+ 	height:200px;
+ 	clip-path: polygon(33% 0, 66% 0, 100% 100%, 0% 100%);
+ 	background-color:#38260E;
+ 	position:absolute; 
+ 	top: 1000px;
+    left: 50px;
+    transform: rotate(36deg);
+    opacity: 0.9;
+    z-index: 1;
+}
+
+.sunset{
+	width:2000px;
+ 	height:500px;
+ 	background: rgb(174,56,226);
+	background: linear-gradient(0deg, rgba(174,56,226,1) 0%, rgba(255,218,167,1) 48%, rgba(250,219,255,1) 99%);
+ 	position:absolute; 
+ 	top:0px;
+    left: 0px;
+
+}
+
+.rock1{
+	width:1450px;
+ 	height:400px;
+ 	border-radius:50% 50% 51% 49% / 100% 100% 0% 0% ;
+ 	background-color: #5E5851;
+	background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+ 	position:absolute; 
+ 	top: 500px;
+    left: 0px;
+  
+}
+
+.rock2{
+	width:1750px;
+ 	height:500px;
+ 	border-radius:50% 50% 51% 49% / 100% 100% 0% 0% ;
+ 	background-color: #5E5851;
+	background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+ 	position:absolute; 
+ 	top: 500px;
+    left: 1300px;
+ }
+
+ .rock3{
+	width:2000px;
+ 	height:1000px;
+ 	border-radius:50% 50% 51% 49% / 100% 100% 0% 0% ;
+ 	background-color: #706D6B;
+	background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+ 	position:absolute; 
+ 	top: 1016px;
+    left: 0px;
+  
+}
+
+.rock4{
+	width:2000px;
+ 	height:1000px;
+ 	border-radius:50% 50% 51% 49% / 100% 100% 0% 0% ;
+ 	background-color: #706D6B;
+	background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+ 	position:absolute; 
+ 	top: 1016px;
+    left: 1300px;
+ }
+
+

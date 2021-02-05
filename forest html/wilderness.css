@@ -1,0 +1,34 @@
+body {
+	background-color: #3f5c00;
+	background-image: url("https://www.transparenttextures.com/patterns/concrete-wall-2.png");
+	width: 1000px;
+	height:800px;
+
+}
+
+.container{
+	width: 1000px;
+	height:900px;
+	overflow: hidden;
+	position: fixed;
+	top:0px;
+	left:0px;
+}
+
+.tree1{
+	background-color: #4F3012;
+	position:absolute;
+	width: 120px;
+	height: 900px;
+	top:0px;
+	left:0px;
+}
+
+.tree2{
+	background-color: #41180B;
+	position:absolute;
+	width: 70px;
+	height: 700px;
+	top:0px;
+	left:150px;
+}

@@ -1,0 +1,91 @@
+
+body{
+	padding:0;
+  margin:0;
+  background-color: blue;
+  
+}
+
+.container{
+  height:500px;
+  width:450px;
+  position: absolute;
+  margin: auto;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  z-index:-1;
+ 
+}
+
+.tree{
+  position: relative;
+  top:150px;
+  left:100px;
+
+}
+.treetop{
+  position: relative;
+  top:-130px;
+  left:75px;
+  height:120px;
+  width:120px;
+  clip-path: polygon(50% 30%, 0% 100%, 100% 100%);
+ background: rgb(173,212,0);
+ background: linear-gradient(90deg, rgba(173,212,0,1) 0%, rgba(0,130,27,1) 80%);
+  z-index:2;
+}
+
+.treemiddle{
+  position: relative;
+  top:-230px;
+  left:35px;
+  height:180px;
+  width:200px;
+  clip-path: polygon(50% 30%, 0% 100%, 100% 100%);
+  background: rgb(173,212,0);
+background: linear-gradient(90deg, rgba(173,212,0,1) 0%, rgba(0,130,27,1) 80%);
+  z-index:1;
+}
+
+.treebottom{
+  position: relative;
+  top:-380px;
+  left:-8px;
+  height:250px;
+  width:290px;
+  clip-path: polygon(50% 30%, 0% 100%, 100% 100%);
+  background: rgb(173,212,0);
+  background: linear-gradient(90deg, rgba(173,212,0,1) 0%, rgba(0,130,27,1) 80%);
+}
+
+.trunk{
+  position:relative;
+  top:-380px;
+  left:115px;
+  height:80px;
+  width:40px;
+  background: rgb(119,76,30);
+background: linear-gradient(0deg, rgba(119,76,30,1) 0%, rgba(87,38,0,1) 100%);
+}
+
+.shadow{
+  background-color: rgba(8,8,8,0.05);
+  height:70px;
+  width: 280px;
+  border-radius:50%;
+  position:relative;
+  top:-400px;
+  left:-3px;
+  z-index:-1;
+}
+
+
+
+
+
+
+
+
+
