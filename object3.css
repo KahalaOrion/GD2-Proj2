@@ -18,7 +18,7 @@ body {
 }
 
 .dog{
-	position: relative;
+	position: absolute;
 	top:150px;
 	left:50px;
 
@@ -38,19 +38,19 @@ body {
 	border-radius:30px;
 	clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
 	background-color: #32190E; 
-	position:relative;
+	position:absolute;
 	z-index: -1;
 }
 .ear-l{
-	bottom: -15px;
-    left: -40px;
+	bottom: 68px;
+    left: -49px;
 	transform: rotate(180deg);
 	
 }
 
 .ear-r{
-	bottom:65px;
-	left:90px;
+	bottom:68px;
+	left:97px;
 	transform: rotate(-180deg);
 	transform:scaleX(-1);
 }
@@ -78,7 +78,7 @@ body {
 	height:20px;
 	width:20px;
 	border-radius: 50%;
-	position: relative;
+	position: absolute;
 	top:3px;
 	left:5px;
 }
@@ -88,7 +88,7 @@ body {
 	height:8px;
 	width:4px;
 	border-radius: 70%;
-	position: relative;
+	position: absolute;
 	top:3px;
 	left:10px;
 	transform: rotate(-30deg)
@@ -104,19 +104,10 @@ body {
 	left:50px;	
 }
 
-/*.mouth{
-	background-color:black;
-	height: 40px;
-	width: 60px;
-	clip-path: polygon(0 22%, 9% 27%, 35% 60%, 58% 68%, 100% 67%, 100% 76%, 51% 76%, 21% 63%, 0 38%);
-	position: relative;
-	bottom:-10px;
-	left:-25px;
-	transform:rotate(5deg);
-}*/
+
  .mouth{
  	width: 80px;
-    height: 30px; /* as the half of the width */
+    height: 30px; 
     border-bottom-left-radius: 70px;
     border-bottom-right-radius: 50px;
     border: 5px solid black;
@@ -135,8 +126,8 @@ body {
 	height: 35px;
 	width: 25px;
 	border-radius:44% 56% 30% 70% / 0% 64% 36% 100% ;
-	position: relative;
-	bottom:3px;
+	position: absolute;
+	bottom:-25px;
 	left:30px;
 	transform:rotate(-10deg);
 
@@ -148,9 +139,9 @@ body {
 	background-color: #AA734F;
 	height:140px;
 	width: 150px;
-	position:relative;
+	position:absolute;
 	left:0px;
-	bottom:5px;
+	bottom:-133px;
 	border-radius: 65px 65px 2px 2px;
 	z-index: -1;
 	overflow: hidden; 
@@ -161,7 +152,7 @@ body {
 	height:140px;
 	width: 150px;
 	clip-path: polygon(0 0, 21% 0%, 33% 15%, 29% 26%, 39% 39%, 48% 51%, 63% 36%, 66% 26%, 62% 18%, 68% 4%, 74% 0%, 99% 0%, 100% 37%, 89% 66%, 82% 62%, 82% 74%, 76% 70%, 76% 83%, 66% 90%, 59% 100%, 49% 100%, 41% 91%, 33% 87%, 32% 78%, 28% 78%, 28% 68%, 19% 73%, 22% 61%, 13% 62%, 18% 48%, 10% 55%, 1% 41%, 0 24%);
-	position:relative;
+	position:absolute;
 
 	
 	
@@ -171,25 +162,25 @@ body {
 	background-color: #AA734F;
 	height: 40px;
 	width: 40px;
-	position:relative;
+	position:absolute;
 	border-radius: 0 0 20px 20px;
 }
-
 .paw-l{
-	top:-10px;
+	top:300px;
 }
 
 .paw-r{
-	top:-48px;
+	top:300px;
 	left:110px;
 }
+
 
 .tail{
 	background-color: #995E3D;
 	width: 100px;
 	height: 20px;
-	position:relative;
-	top:-140px;
+	position:absolute;
+	top:260px;
 	left: 120px;
 	border-radius: 0 20px 20px 0;
 	z-index: -2;
@@ -203,9 +194,9 @@ body {
 	height:70px;
 	width: 190px;
 	border-radius:50%;
-	position:relative;
-	bottom: 110px;
-	left: 20px;
+	position:absolute;
+	top: 304px;
+	left: -3px;
 	z-index: -3;
 }
 
