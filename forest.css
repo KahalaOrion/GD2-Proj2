@@ -26,15 +26,15 @@ img {
 
 a {
 	position: absolute;
-	top:3450px;
-	left:-900px;
+	top:3490px;
+	left:-840px;
 }
 
 a:hover{ 
 	position: absolute;
-	top:3450px;
-	left:-900px;
-	opacity:0.8;
+	top:3505px;
+	left:-835px;
+	opacity:0.9;
  }
 
 /* RIVER SHAPE BUILDING*/
@@ -121,7 +121,7 @@ a:hover{
     opacity: 0.9;
 }
 
-.path3,.path4{
+.path3,.path4,.path5,.path6,.path7,.path8,.path9{
 	width:100px;
  	height:400px;
  	background-color:#171400;
@@ -135,10 +135,40 @@ a:hover{
     transform: rotate(41deg);
 }
 
-/*.path4{
-	top: 900px;
-    left: 1400px;
-    transform: rotate(41deg);
+.path4{
+	top: 1108px;
+    left: 1481px;
+    transform: rotate(3deg);
+}
+
+.path5{
+    top: 1525px;
+    left: 1459px;
+    transform: rotate(3deg);
+}
+
+.path6{
+    top: 1942px;
+    left: 1426px;
+    transform: rotate(6deg);
+}
+
+.path7{
+    top: 2357px;
+    left: 1379px;
+    transform: rotate(6deg);
+}
+
+.path8{
+    top: 2771px;
+    left: 1334px;
+    transform: rotate(6deg);
+}
+
+.path9{
+  	top: 3180px;
+    left: 1269px;
+    transform: rotate(12deg);
 }
 
 
