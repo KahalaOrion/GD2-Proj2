@@ -41,53 +41,39 @@ a:hover{
 
 .rivercontainer{
 	height:4000px;
- 	width:600px;
+ 	width:3500px;
   	position: absolute;
   	margin: auto;
   	top:0;
  	bottom:0;
  	left:0;
-  	right:0;
-	
-}
+ 	right:0;
 
-.river1,.river2,.river3{
-	position: absolute;
-    width: 1108px;
-    height: 409px;
-    border-radius: 50%;
-    background-color: blue;
 }
 .river1{
-	top: -76px;
+    position: absolute;
+    width: 3089px;
+    height: 692px;
+    border-radius: 50%;
+    background-color: #00479e;
+	background-image: url("https://www.transparenttextures.com/patterns/grilled-noise.png");
+    top: -356px;
     left: -86px;
-    transform:rotate(7deg);
+    transform: rotate(355deg);
 }
-
-.river2{
-	top: -109px;
-    left: 792px;
-    transform: rotate(10deg);
-}
-
-.river3{
-      top: -196px;
-    left: 1670px;
-    transform: rotate(349deg);
- }
-
-
 
 .rivercorner{
 	position: absolute;
-    width: 919px;
-    height: 501px;
+    width: 1600px;
+    height: 318px;
     border-radius: 50%;
     background-color: #19701e;
     background-image: url(https://www.transparenttextures.com/patterns/gravel.png);
-    top: 56px;
-    left: 954px;
-    transform: rotate(353deg);
+    top: -200px;
+    left: 1000px;
+    transform: rotate(
+357deg
+);
 }
 
 
@@ -102,7 +88,7 @@ a:hover{
 	width:100px;
  	height:200px;
  	clip-path: polygon(33% 0, 66% 0, 100% 100%, 0% 100%);
- 	background-color:#38260E;
+ 	background-color:#171400;
  	position:absolute; 
  	top: 302px;
     left: 2017px;
@@ -114,7 +100,7 @@ a:hover{
 .path2{
 	width:100px;
  	height:200px;
- 	background-color:#38260E;
+ 	background-color:#171400;
  	position:absolute; 
  	top: 467px;
     left: 1886px;
@@ -125,7 +111,7 @@ a:hover{
 .path3,.path4,.path5{
 	width:100px;
  	height:400px;
- 	background-color:#38260E;
+ 	background-color:#171400;
  	position:absolute; 
     opacity: 0.9;
 }
@@ -137,9 +123,8 @@ a:hover{
 }
 
 ..path4{
-	top: 205px;
-    left: 1682px;
-    transform: rotate(41deg);
+	top: 0px;
+    left: 0px;
 }
 
 
