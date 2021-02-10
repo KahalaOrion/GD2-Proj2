@@ -21,6 +21,7 @@ img {
  	position:absolute; 
  	top:40px;
  	left:2000px;
+ 	z-index: 1
 }
 
 a {
@@ -36,7 +37,63 @@ a:hover{
 	opacity:0.8;
  }
 
-.container{
+/* RIVER SHAPE BUILDING*/
+
+.rivercontainer{
+	height:4000px;
+ 	width:600px;
+  	position: absolute;
+  	margin: auto;
+  	top:0;
+ 	bottom:0;
+ 	left:0;
+  	right:0;
+	
+}
+
+.river1,.river2,.river3{
+	position: absolute;
+    width: 1108px;
+    height: 409px;
+    border-radius: 50%;
+    background-color: blue;
+}
+.river1{
+	top: -76px;
+    left: -86px;
+    transform:rotate(7deg);
+}
+
+.river2{
+	top: -109px;
+    left: 792px;
+    transform: rotate(10deg);
+}
+
+.river3{
+      top: -196px;
+    left: 1670px;
+    transform: rotate(349deg);
+ }
+
+
+
+.rivercorner{
+	position: absolute;
+    width: 919px;
+    height: 501px;
+    border-radius: 50%;
+    background-color: #19701e;
+    background-image: url(https://www.transparenttextures.com/patterns/gravel.png);
+    top: 56px;
+    left: 954px;
+    transform: rotate(353deg);
+}
+
+
+
+/* PATH SHAPE BUILDING*/
+.pathcontainer{
 	position: absolute;
 	width: 4000px;
 	height:3500px;
@@ -54,7 +111,6 @@ a:hover{
  
 }
 
-
 .path2{
 	width:100px;
  	height:200px;
@@ -66,14 +122,25 @@ a:hover{
     opacity: 0.9;
 }
 
-.path3{
+.path3,.path4,.path5{
 	width:100px;
  	height:400px;
  	background-color:#38260E;
  	position:absolute; 
- 	top: 605px;
-    left: 1682px;
-    transform: rotate(41deg);
     opacity: 0.9;
 }
+
+.path3{
+	top: 605px;
+    left: 1682px;
+    transform: rotate(41deg);
+}
+
+..path4{
+	top: 205px;
+    left: 1682px;
+    transform: rotate(41deg);
+}
+
+
 
