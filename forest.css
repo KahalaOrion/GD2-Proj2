@@ -84,6 +84,19 @@ a:hover{
 	width: 4000px;
 	height:3500px;
 }
+
+.pathturn{
+	width: 156px;
+    height: 156px;
+    background-color: #171400;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    position: absolute;
+    top: 935px;
+    left: 1469px;
+    transform: rotate(2deg);
+    opacity: 0.9;
+}
+
 .path1{
 	width:100px;
  	height:200px;
@@ -108,7 +121,7 @@ a:hover{
     opacity: 0.9;
 }
 
-.path3,.path4,.path5{
+.path3,.path4{
 	width:100px;
  	height:400px;
  	background-color:#171400;
@@ -122,9 +135,10 @@ a:hover{
     transform: rotate(41deg);
 }
 
-..path4{
-	top: 0px;
-    left: 0px;
+/*.path4{
+	top: 900px;
+    left: 1400px;
+    transform: rotate(41deg);
 }
 
 
