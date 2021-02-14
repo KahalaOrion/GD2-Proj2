@@ -20,18 +20,17 @@ img {
 }
 
 .path1{
-	width:200px;
- 	height:200px;
- 	clip-path: polygon(33% 0, 66% 0, 100% 100%, 0% 100%);
- 	background-color:#38260E;
- 	position:absolute; 
- 	top: 1000px;
-    left: 50px;
-    transform: rotate(36deg);
+	    width: 200px;
+    height: 500px;
+    clip-path: polygon(33% 0, 66% 0, 100% 100%, 0% 100%);
+    background-color: #38260E;
+    position: absolute;
+    top: 1051px;
+    left: 826px;
+    transform: rotate(20deg);
     opacity: 0.9;
     z-index: 1;
 }
-
 .sunset{
 	width:2000px;
  	height:500px;
@@ -50,8 +49,8 @@ img {
  	background-color: #5E5858;
 	background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
  	position:absolute; 
- 	top: 425px;
-    left: -211px;
+    top: 405px;
+    left: -264px;
   
 }
 
